@@ -1,6 +1,4 @@
 
-
-
 Build do Projeto:
 ----------------
 ng build --prod --base-href "https://work-dev-br.github.io/work-dev-web/"
@@ -10,10 +8,8 @@ Publicar o site no Github pages:
 ngh --branch=gh-pages
 
 
-
 Site publicado no Github:
-https://work-dev-br.github.io/work-dev-br-web/
-
+https://work-dev-br.github.io/work-dev-web/
 
 
 INSTALAÇÃO INICIAL DO GH-PAGES:

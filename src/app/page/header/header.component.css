@@ -1,0 +1,24 @@
+
+.header-container {
+    background-color: crimson;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+}
+
+.header-title {
+    margin-left: 16px;
+}
+
+.header-box-icons {
+    margin-right: 16px;
+}
+
+.header-link {
+    margin-left: 16px;
+}
