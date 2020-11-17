@@ -1,5 +1,14 @@
 <div class="button-tool-container">
-    <div>
-        {{ tool.title }} {{ tool.quantity }}
+    <div class="button-tool-title">
+        <img src="assets/angular-48.png" alt="Angular" width="36" height="36" class="img-rounded"> 
+        <div class="button-title">
+            {{ tool.title }}
+        </div>
+    </div>
+    <div class="button-tool-space"></div>
+    <div *ngIf="showQuantity()">
+        <div class="button-tool-badge">
+            {{ tool.quantity }}
+        </div>
     </div>
 </div>

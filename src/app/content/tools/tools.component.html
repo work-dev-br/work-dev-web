@@ -1,11 +1,9 @@
 <div class="tools-container">
-    <div class="tools-group">
-        Grupo
-    </div>
-    <div class="tools-item">
+    <app-button-group title="{{group.title}}"></app-button-group>
+    <div class="tools-box-itens">
         <div *ngFor="let tool of tools">
-            <div *ngIf="showTool(tool)">
-                <a class="" [routerLink]="['/articles', group, tool.name]">
+            <div *ngIf="showTool(tool)" class="tools-item">
+                <a class="" [routerLink]="['/articles', group.name, tool.name]" class="tools-link">
                     <app-button-tool [tool]="tool"></app-button-tool>
                 </a>
             </div>

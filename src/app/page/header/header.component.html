@@ -1,21 +1,31 @@
 <div class="header-container">
-    <div class="header-title">
-        <span class="header-color-col">{{coll}}</span>
-        <span class="header-color-title">{{title}}</span>
-        <span class="header-color-col">{{colh}}</span>
+    <div class="header-left">
+        <div class="header-box-icons">
+            <a class="header-link" routerLink="/home" routerLinkActive="active">
+                <span class="material-icons">menu</span>
+            </a>
+        </div>
     </div>
-    <div class="header-box-icons">
-        <a class="header-link" routerLink="/home" routerLinkActive="active">
-            <img src="assets/svg/home-24px.svg">
-            Home
-        </a>
-        <a class="header-link" routerLink="/contact" routerLinkActive="active">
-            <img src="assets/svg/contact-24px.svg">
-            Contato
-        </a>
-        <a class="header-link" routerLink="/about" routerLinkActive="active">
-            <img src="assets/svg/about-24px.svg">
-            Sobre
-        </a>
+    <div class="header-center">
+        <div class="header-title">
+            <span class="header-color-title">work.dev</span>
+            <span class="header-color-br">.br</span>
+        </div>
+    </div>
+    <div class="header-hight">
+        <div class="header-box-icons">
+            <a class="header-link" routerLink="/contact" routerLinkActive="active">
+                <span class="material-icons">mail_outline</span>
+            </a>
+            <span class="header-space"></span>
+            <a class="header-link" routerLink="/about" routerLinkActive="active">
+            <span class="material-icons">info_outline</span>
+            </a>
+        </div>
     </div>
 </div>
+
+<!-- 
+    <img src="assets/svg/home-24px.svg">
+
+-->

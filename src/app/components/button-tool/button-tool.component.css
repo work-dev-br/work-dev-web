@@ -1,8 +1,52 @@
 
 .button-tool-container {
-    width: 100%;
+    background-color: #8ecae6;
+    width: auto;
+    margin-top: 3x;
+    margin-bottom: 3px;
+    padding: 5px;
+    border: solid;
+    border-color: #118ab2;
+    border-radius: 12px;
+    border-width: 2px;
+    display: flex;
+    justify-content: space-between;
+    color: #1d3557;
+    font-family: 'Goldman', cursive;
+    font-style: italic;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+
+.button-tool-title {
     padding-top: 6px;
     padding-bottom: 6px;
-    margin-bottom: 20px;
-    border: solid;
+    display: flex;
+    align-items: center;
+}
+
+.button-tool-badge {
+    background-color: #e63946;
+    min-width: 24px;
+    min-height: 24px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.button-title {
+    padding-left: 10px;
+}
+
+.button-tool-space {
+    width: 30px;
+}
+
+.img-rounded {
+    border-radius: 50%;
 }

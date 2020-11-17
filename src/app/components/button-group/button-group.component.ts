@@ -6,15 +6,12 @@ import { Component, OnInit, Input } from '@angular/core';
     styleUrls: ['./button-group.component.css']
 })
 export class ButtonGroupComponent implements OnInit {
-    iconUrl: string = "assets/icons/"
 
     constructor() { }
 
     @Input() title: string
-    @Input() icon: string
     
     ngOnInit(): void {
-        this.iconUrl = this.iconUrl + this.icon
     }
 
 }

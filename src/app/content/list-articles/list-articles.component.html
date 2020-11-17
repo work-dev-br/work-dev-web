@@ -1,7 +1,7 @@
 
 <div>
     <div *ngFor="let article of articles">
-        <a class="Article-Link" [routerLink]="['/article', article.group, article.tool, article.id ]">
+        <a class="article-link" [routerLink]="['/article', article.group, article.tool, article.id ]">
             <app-button-article [article]="article"></app-button-article>
         </a>
     </div>

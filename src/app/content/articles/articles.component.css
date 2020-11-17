@@ -7,18 +7,14 @@
     align-items: center;
 }
 
-.articles-group-tool {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    font-family: 'Goldman', cursive;
-    font-size: 42px;
-    color: crimson;    
-}
 
 .articles-item {
     width: 90%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.articles-box-tool {
     margin-top: 10px;
     margin-bottom: 10px;
 }

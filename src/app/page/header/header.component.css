@@ -1,37 +1,64 @@
 
 .header-container {
-    background-color: #f5f5f5;
-    width: 100%;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    background-color: #45739d;
+    padding-top: 16px;
+    padding-bottom: 16px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    border-bottom-style: solid;
-    border-bottom-color: #e0e0e0;
-    border-bottom-width: 1px;
+    flex-wrap: wrap-reverse;
+}
+
+@media screen and (max-width: 600px) {
+    .header-container {
+        justify-content: space-around;
+    }
+}
+
+.header-left {
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.header-center {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.header-hight {
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: row;
 }
 
 .header-title {
-    margin-left: 16px;
-    color: orangered;
-    font-family: 'Oswald', sans-serif;
-    font-size: 30px;
+    font-family: 'Goldman', cursive;
+    font-size: 36px;
+}
+
+.header-space {
+    padding: 10px;
 }
 
 .header-box-icons {
-    margin-right: 16px;
 }
 
 .header-link {
-    margin-left: 16px;
 }
 
-.header-color-col {
-    color: #118ab2;
+.header-color-br {
+    color: #a8dadc;
 }
 
 .header-color-title {
-    color: #d90429;
+    color: #ffffff;
+}
+
+.material-icons {
+    font-size: 42px;
+    color: #f1faee;
 }

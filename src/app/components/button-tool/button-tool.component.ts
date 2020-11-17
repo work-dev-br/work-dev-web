@@ -16,4 +16,7 @@ export class ButtonToolComponent implements OnInit {
     ngOnInit(): void {
     }
 
+    showQuantity(): boolean {
+        return this.tool.quantity > 0 ? true : false
+    }
 }
