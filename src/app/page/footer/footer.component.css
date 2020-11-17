@@ -1,14 +1,17 @@
 
 .footer-container {
-    background-color: gainsboro;
+    background-color: #fafafa;
     width: 100%;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 12px;
+    padding-bottom: 10vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    color: #ffffff;
+    color: #323232;
+    border-top-style: solid;
+    border-top-color: #e0e0e0;
+    border-top-width: 1px;
 }
 
 .footer-title {

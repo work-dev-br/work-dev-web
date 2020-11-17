@@ -1,0 +1,24 @@
+
+.home-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;    
+}
+
+.home-buttons-group {
+    margin-top: 12px;
+    margin-bottom: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.home-itens {
+    width: 90%;
+    margin-top: 10px;
+    margin-bottom: 10px;    
+}

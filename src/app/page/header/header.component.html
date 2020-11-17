@@ -1,8 +1,21 @@
 <div class="header-container">
-    <div class="header-title">work.dev.br</div>
+    <div class="header-title">
+        <span class="header-color-col">{{coll}}</span>
+        <span class="header-color-title">{{title}}</span>
+        <span class="header-color-col">{{colh}}</span>
+    </div>
     <div class="header-box-icons">
-        <a class="header-link" routerLink="/home" routerLinkActive="active">Home</a>
-        <a class="header-link" routerLink="/contact" routerLinkActive="active">Contato</a>
-        <a class="header-link" routerLink="/about" routerLinkActive="active">Sobre</a>
+        <a class="header-link" routerLink="/home" routerLinkActive="active">
+            <img src="assets/svg/home-24px.svg">
+            Home
+        </a>
+        <a class="header-link" routerLink="/contact" routerLinkActive="active">
+            <img src="assets/svg/contact-24px.svg">
+            Contato
+        </a>
+        <a class="header-link" routerLink="/about" routerLinkActive="active">
+            <img src="assets/svg/about-24px.svg">
+            Sobre
+        </a>
     </div>
 </div>

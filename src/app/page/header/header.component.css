@@ -1,6 +1,6 @@
 
 .header-container {
-    background-color: crimson;
+    background-color: #f5f5f5;
     width: 100%;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -8,11 +8,16 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    color: #ffffff;
+    border-bottom-style: solid;
+    border-bottom-color: #e0e0e0;
+    border-bottom-width: 1px;
 }
 
 .header-title {
     margin-left: 16px;
+    color: orangered;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
 }
 
 .header-box-icons {
@@ -21,4 +26,12 @@
 
 .header-link {
     margin-left: 16px;
+}
+
+.header-color-col {
+    color: #118ab2;
+}
+
+.header-color-title {
+    color: #d90429;
 }

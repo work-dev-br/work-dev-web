@@ -1,0 +1,27 @@
+
+.button-group-container {
+    background-color: #db3a34;
+    margin: 3px;
+    width: fit-content;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*-- Border --*/
+    border-radius: 6px;
+    border: solid;
+    border-width: 2px;
+    border-color: #c71f37;
+    /* Font --*/
+    color: #FFFFFF;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+}
+
+.button-group-icon {
+    padding-left: 3px;
+    padding-right: 3px;
+}
+

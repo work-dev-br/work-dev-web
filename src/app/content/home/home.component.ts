@@ -1,18 +1,27 @@
 import { Component, OnInit } from '@angular/core';
 
+import { Group } from '../../models/group.model'
+
+import { GroupsService } from '../../services/groups.service'
+
 @Component({
     selector: 'app-home',
     templateUrl: './home.component.html',
-    styleUrls: ['./home.component.css']
+    styleUrls: ['./home.component.css'],
+    providers: [
+        GroupsService,
+    ]
 })
 export class HomeComponent implements OnInit {
-    imageSrc = 'assets/javascript-circle-48.png'  
-    imageAlt = 'Javascript'
+    public groups: Group[] = []
+    public showNew: boolean = true
 
-
-    constructor() { }
+    constructor(
+        private groupsService: GroupsService,
+    ) { }
 
     ngOnInit(): void {
+        this.groups = this.groupsService.getGroups()
     }
 
 }

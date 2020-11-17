@@ -1,40 +1,47 @@
 
 .content-container {
-    background-color: goldenrod;
+    margin: 0;
+    display: flex;
+}
+
+.content-box {
+    width: 100%;
+    margin-top: 12px;
+    margin-bottom: 12px;
     margin-left: 28vw;
     margin-right: 28vw;
 }
 
 @media screen and (max-width: 1800px) {
-    .content-container {
+    .content-box {
         margin-left: 23vw;
         margin-right: 23vw;
     }
 }
 
 @media screen and (max-width: 1500px) {
-    .content-container {
+    .content-box {
         margin-left: 18vw;
         margin-right: 18vw;
     }
 }
   
 @media screen and (max-width: 1200px) {
-    .content-container {
+    .content-box {
         margin-left: 13vw;
         margin-right: 13vw;
     }
 }
 
 @media screen and (max-width: 900px) {
-    .content-container {
+    .content-box {
         margin-left: 8vw;
         margin-right: 8vw;
     }
 }
   
 @media screen and (max-width: 600px) {
-    .content-container {
+    .content-box {
         margin-left: 3vw;
         margin-right: 3vw;
     }
