@@ -9,10 +9,10 @@ export class ToolsService {
     private tools: Tool[] = []
 
     constructor() { 
-        this.setTool("angular", "Angular", "", 0)
-        this.setTool("javascript", "Javascript", "", 0)
-        this.setTool("css", "CSS", "", 0)
-        this.setTool("internet", "Internet", "", 0)
+        this.setTool("angular", "Angular", "angular-48.png", 0)
+        this.setTool("javascript", "Javascript", "javascript-48.png", 0)
+        this.setTool("css", "CSS", "coding-48.png", 0)
+        this.setTool("internet", "Internet", "coding-48.png", 0)
     }
 
     private setTool(name: string, title: string, icon: string, quantity: number): void {

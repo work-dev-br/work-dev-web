@@ -17,6 +17,10 @@
     align-items: center;
 }
 
+.home-group {
+    margin: 6px;
+}
+
 .home-itens {
     width: 90%;
     margin-top: 10px;

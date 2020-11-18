@@ -2,7 +2,7 @@
 
     <!-- Botoes dos GRUPOS -->
     <div class="home-buttons-group">
-        <div *ngFor="let group of groups">
+        <div *ngFor="let group of groups" class="home-group">
             <a class="home-link" [routerLink]="['/tools', group.name]">
                 <app-button-group title="{{group.title}}"></app-button-group>
             </a>

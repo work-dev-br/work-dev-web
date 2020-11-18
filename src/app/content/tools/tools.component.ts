@@ -20,6 +20,7 @@ import { ArticlesService } from '../../services/articles.service'
     ]
 })
 export class ToolsComponent implements OnInit {
+    public expands: boolean = true
     public parmGroup: string
     public group: Group
     public tools: Tool[] = []

@@ -2,8 +2,7 @@
 .button-tool-container {
     background-color: #8ecae6;
     width: auto;
-    margin-top: 3x;
-    margin-bottom: 3px;
+/*    min-width: 36vw; */
     padding: 5px;
     border: solid;
     border-color: #118ab2;

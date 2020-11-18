@@ -1,12 +1,16 @@
 <div class="articles-container">
-    <!-- Exibe o Grupo -->
-    <div>
-        <app-button-group title="{{group.title}}"></app-button-group>
+
+    <div class="articles-container-buttons">
+        <!-- Exibe o Grupo -->
+        <div class="articles-box-group">
+            <app-button-group title="{{group.title}}"></app-button-group>
+        </div>
+        <!-- Exibe a Ferramenta -->
+        <div class="articles-box-tool">
+            <app-button-tool [tool]="tool" [expands]="expands"></app-button-tool>
+        </div>
     </div>
-    <!-- Exibe a Ferramenta -->
-    <div class="articles-box-tool">
-        <app-button-tool [tool]="tool"></app-button-tool>
-    </div>
+
     <!-- Lista os Artigos -->    
     <div class="articles-item">
         <app-list-articles [showNew]="showNew" group="{{parmGroup}}" tool="{{parmTool}}"></app-list-articles>

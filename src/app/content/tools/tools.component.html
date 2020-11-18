@@ -4,7 +4,7 @@
         <div *ngFor="let tool of tools">
             <div *ngIf="showTool(tool)" class="tools-item">
                 <a class="" [routerLink]="['/articles', group.name, tool.name]" class="tools-link">
-                    <app-button-tool [tool]="tool"></app-button-tool>
+                    <app-button-tool [tool]="tool" [expands]="expands"></app-button-tool>
                 </a>
             </div>
         </div>

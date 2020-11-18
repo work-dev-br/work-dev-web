@@ -88,11 +88,23 @@ export class ArticlesService {
             "Instalando o framework Angular no Windows.", 
             new Date(2020, 11, 17), 2, false, )
 
-        /*-- Artigo 2 - Ideias - Angular --*/
-        this.setArticle(2, "tips", "javascript", 
+        /*-- Artigo 4 - Ideias - Angular --*/
+        this.setArticle(4, "tips", "javascript", 
             "Mostrando o tipo de dado de uma variavel com Javascript", 
             "Dica simples para exibir um objeto Date no formato dd/mm/aaaa utilizado pipe do Angular.", 
             new Date(2020, 11, 16), 1, true, )
+
+        /*-- Artigo 5 - Ideias - CSS --*/
+        this.setArticle(5, "tips", "css", 
+            "Como instalar o Angular no Windows", 
+            "Instalando o framework Angular no Windows.", 
+            new Date(2020, 11, 17), 2, false, )
+
+        /*-- Artigo 6 - Variedades - Internet --*/
+        this.setArticle(6, "varieties", "internet", 
+            "Como instalar o Angular no Windows", 
+            "Instalando o framework Angular no Windows.", 
+            new Date(2020, 11, 17), 2, false, )
 
 
 
