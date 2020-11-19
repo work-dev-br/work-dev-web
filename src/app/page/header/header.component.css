@@ -17,31 +17,31 @@
 }
 
 .header-left {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: calc(8px + 1vw);
+    padding-right: calc(8px + 1vw);
     display: flex;
     flex-direction: row;
 }
 
 .header-center {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: calc(8px + 1vw);
+    padding-right: calc(8px + 1vw);
 }
 
 .header-hight {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: calc(8px + 1vw);
+    padding-right: calc(8px + 1vw);
     display: flex;
     flex-direction: row;
 }
 
 .header-title {
     font-family: 'Goldman', cursive;
-    font-size: 36px;
+    font-size: calc(20px + 1.4vw);
 }
 
 .header-space {
-    padding: 10px;
+    padding: calc(5px + 1vw);
 }
 
 .header-box-icons {
@@ -59,6 +59,6 @@
 }
 
 .material-icons {
-    font-size: 42px;
+    font-size: calc(22px + 1.6vw);
     color: #f1faee;
 }

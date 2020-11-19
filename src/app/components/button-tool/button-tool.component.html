@@ -1,7 +1,7 @@
 <div class="button-tool-container" 
     [ngStyle]="{'min-width': expands ? '36vw' : '1vw' }">
     <div class="button-tool-title">
-        <img src="{{urlIcon}}" width="32" height="32" class="img-rounded"> 
+        <app-show-icon icon="{{tool.name}}"></app-show-icon>
         <div class="button-title">
             {{ tool.title }}
         </div>

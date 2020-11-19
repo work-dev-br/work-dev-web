@@ -20,6 +20,7 @@ import { ButtonArticleComponent } from './components/button-article/button-artic
 import { HeaderArticleComponent } from './components/header-article/header-article.component';
 import { ListArticlesComponent } from './content/list-articles/list-articles.component';
 import { ArticleNotFoundComponent } from './shared/article-not-found/article-not-found.component';
+import { ShowIconComponent } from './shared/show-icon/show-icon.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +41,8 @@ import { ArticleNotFoundComponent } from './shared/article-not-found/article-not
     ButtonArticleComponent,
     HeaderArticleComponent,
     ListArticlesComponent,
-    ArticleNotFoundComponent
+    ArticleNotFoundComponent,
+    ShowIconComponent
   ],
   imports: [
     BrowserModule,

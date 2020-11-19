@@ -1,0 +1,108 @@
+.button-article-container {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+
+/*-- TOP: Mostra a ferramenta (se necessário) --*/
+
+.button-article-top {
+    background-color: #f5f5f5;
+    padding-right: 6px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.button-article-group {
+    padding: 2px;
+    padding-left: 12px;
+    padding-right: 12px;
+    background-color: #e8f1f2;
+    font-family: 'Goldman', cursive;
+    font-size: calc(10px + 0.4vw);
+    color: #118ab2;
+    /*-- Border --*/
+    border-top: solid;
+    border-right: solid;
+    border-left: solid;
+    border-width: 1px;
+    border-radius: 4px 4px 0px 0px;
+    border-color: #D8E7E9;
+}
+
+/*-- BOTTOM: Parte de baixo - Combo do Artigo --*/
+
+.button-article-bottom {
+    border-radius: 6px;
+    border: solid;
+    border-width: 1px;
+    border-color: #D8E7E9;
+}
+
+.button-article-header {
+    display: flex;
+    flex-direction: row;
+}
+
+.button-article-footer {
+    padding-top: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 12px;
+}
+
+/*-- Styles especificos --*/
+
+.button-article-icon {
+    padding: 6px;
+}
+
+.button-article-box {
+    padding: 6px;
+    flex: 1;
+}
+
+.button-article-title {
+    font-family: 'Merriweather', serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Goldman', cursive;
+    font-family: 'Oswald', sans-serif;
+
+    padding-bottom: 5px;
+    font-family: 'Goldman', cursive;
+    font-size: calc(16px + 0.6vw);
+    color: #e63946;
+}
+
+.button-article-date {
+    background-color: #edf2f4;
+    width: fit-content;
+    padding: 2px;
+    padding-left: 6px;
+    padding-right: 6px;
+    border-radius: 6px;
+    font-family: 'Roboto', sans-serif;
+    font-size: calc(10px + 0.2vw);
+    font-weight: bold;
+    color: #3d405b;
+}
+
+.button-article-info {
+    padding: 6px;
+}
+
+.button-article-divider {
+    background-color: #ebebeb;
+    height: 1px;
+}
+
+.button-article-description {
+    font-family: 'Merriweather', serif;
+    font-style: italic;
+    font-size:  calc(12px + 0.4vw);
+    line-height: 1.6;
+    color: #333333
+}

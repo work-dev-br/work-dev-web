@@ -9,14 +9,14 @@ export class GroupsService {
     private groups: Group[] = []
 
     constructor() { 
-        this.setGroup("tools", "Ferramentas", "tools-white-36dp.png")
-        this.setGroup("tips", "Dicas", "tips-white-36dp.png")
-        this.setGroup("projects", "Projetos", "projects-white-36dp.png")
-        this.setGroup("varieties", "Variedades", "varieties-white-36dp.png")
+        this.setGroup("tools", "Ferramentas")
+        this.setGroup("tips", "Dicas")
+        this.setGroup("projects", "Projetos")
+        this.setGroup("varieties", "Variedades")
     }
 
-    private setGroup(name: string, title: string, icon: string): void {
-        this.groups.push({ name, title, icon })
+    private setGroup(name: string, title: string): void {
+        this.groups.push({ name, title })
     }
 
     public getGroups(): Group[] {

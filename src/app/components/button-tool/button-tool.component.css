@@ -1,13 +1,12 @@
 
 .button-tool-container {
-    background-color: #8ecae6;
+    background-color: #edf6f9;
     width: auto;
-/*    min-width: 36vw; */
     padding: 5px;
     border: solid;
-    border-color: #118ab2;
-    border-radius: 12px;
-    border-width: 2px;
+    border-color: #e5e5e5;
+    border-radius: 6px;
+    border-width: 1px;
     display: flex;
     justify-content: space-between;
     color: #1d3557;

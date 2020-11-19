@@ -8,7 +8,6 @@ import { Tool } from '../../models/tool.model'
     styleUrls: ['./button-tool.component.css']
 })
 export class ButtonToolComponent implements OnInit {
-    public urlIcon: string
 
     constructor() { }
 
@@ -16,14 +15,6 @@ export class ButtonToolComponent implements OnInit {
     @Input() expands: boolean
 
     ngOnInit(): void {
-        if ( this.tool.icon.length > 0 ) {
-            this.urlIcon = ( "assets/tools/" + this.tool.icon )
-        } else {
-            this.urlIcon = ( "assets/tools/coding-48.png" )
-        }
-        console.log("urlIcon: " + this.urlIcon)
-        console.log("expands: " + this.expands)
-        console.log("expands: " + typeof this.expands)
     }
 
     showQuantity(): boolean {

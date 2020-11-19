@@ -1,4 +1,13 @@
 
+.list-articles-container {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.list-articles-item {
+    margin-bottom: 20px;
+}
+
 .article-link {
     text-decoration: none;
 }
