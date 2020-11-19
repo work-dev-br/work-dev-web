@@ -1,9 +1,9 @@
 <div *ngIf="isValid">
     <!-- Cabeçalho do Artigo -->
-    <app-header-article group={{group}} tool={{tool}} id={{id}}></app-header-article>
+    <app-header-article [article]="article"></app-header-article>
 
     <!-- Artigos de 1 a 10 -->
-    <app-articles001 id={{id}} *ngIf="validFile(1)"></app-articles001>
+    <app-articles001 [numId]="numId" *ngIf="validFile(1)"></app-articles001>
 
 </div>
 
@@ -11,3 +11,4 @@
     <!-- Artigo invalido, não encontrado -->
     <app-article-not-found id={{id}}></app-article-not-found>
 </div>
+

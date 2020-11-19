@@ -19,21 +19,17 @@ export class ListArticlesComponent implements OnInit {
         private articlesService: ArticlesService,       
     ) { }
 
-    @Input() showNew: boolean
+    @Input() showType: boolean
     @Input() group: string
     @Input() tool: string
+    @Input() showNew: boolean
 
     ngOnInit(): void {
-        console.log("showNew: " + this.showNew)
-        console.log("showNew: " + typeof this.showNew)
-        console.log("group..: " + this.group)
-        console.log("group..: " + typeof this.group)
-        console.log("tool...: " + this.tool)
-        console.log("tool...: " + typeof this.tool)
+        if ( this.showNew ) {
+            this.articles = this.articlesService.getArticlesNew()
+        } else {
+            this.articles = this.articlesService.getArticles(this.group, this.tool)
+        }
     }
-
-    ngDoCheck(): void {
-        this.articles = this.articlesService.getArticlesNew()
-    }    
 
 }

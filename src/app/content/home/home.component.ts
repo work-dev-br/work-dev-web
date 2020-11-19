@@ -14,6 +14,7 @@ import { GroupsService } from '../../services/groups.service'
 })
 export class HomeComponent implements OnInit {
     public groups: Group[] = []
+    public showType: boolean = true
     public showNew: boolean = true
 
     constructor(

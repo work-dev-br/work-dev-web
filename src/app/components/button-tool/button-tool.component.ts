@@ -18,6 +18,6 @@ export class ButtonToolComponent implements OnInit {
     }
 
     showQuantity(): boolean {
-        return this.tool.quantity > 0 ? true : false
+        return this.tool.quantity > 0 ? true : false;
     }
 }

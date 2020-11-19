@@ -9,7 +9,7 @@ export class GroupsService {
     private groups: Group[] = []
 
     constructor() { 
-        this.setGroup("tools", "Ferramentas")
+        this.setGroup("courses", "Cursos")
         this.setGroup("tips", "Dicas")
         this.setGroup("projects", "Projetos")
         this.setGroup("varieties", "Variedades")

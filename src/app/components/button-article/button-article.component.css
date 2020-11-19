@@ -4,6 +4,10 @@
     flex-direction: column;
 }
 
+.space-10 {
+    width: 10px;
+}
+
 /*-- TOP: Mostra a ferramenta (se necessário) --*/
 
 .button-article-top {
@@ -11,10 +15,23 @@
     padding-right: 6px;
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.button-article-group {
+.button-article-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-article-type {
+    display: flex;
+    flex-direction: row;
+}
+
+.button-article-type-box {
     padding: 2px;
     padding-left: 12px;
     padding-right: 12px;
@@ -61,21 +78,15 @@
 .button-article-box {
     padding: 6px;
     flex: 1;
-}
+}    
 
 .button-article-title {
-    font-family: 'Merriweather', serif;
     font-family: 'Oswald', sans-serif;
-    font-family: 'Roboto', sans-serif;
-    font-family: 'Roboto Mono', monospace;
-    font-family: 'Goldman', cursive;
-    font-family: 'Oswald', sans-serif;
-
     padding-bottom: 5px;
     font-family: 'Goldman', cursive;
     font-size: calc(16px + 0.6vw);
     color: #e63946;
-}
+}    
 
 .button-article-date {
     background-color: #edf2f4;
@@ -88,11 +99,7 @@
     font-size: calc(10px + 0.2vw);
     font-weight: bold;
     color: #3d405b;
-}
-
-.button-article-info {
-    padding: 6px;
-}
+}    
 
 .button-article-divider {
     background-color: #ebebeb;

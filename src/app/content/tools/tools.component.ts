@@ -39,8 +39,6 @@ export class ToolsComponent implements OnInit {
     ngDoCheck(): void {
         this.parmGroup = this.route.snapshot.paramMap.get("group")
         this.group = this.groupsService.getGroup(this.parmGroup)
-
-
         this.tools = this.toolsService.getTools()
         this.articles = this.articlesService.getArticlesAll()
         for ( let i = 0; i < this.tools.length; i++ ) {
@@ -49,7 +47,6 @@ export class ToolsComponent implements OnInit {
                 if ( a.group == this.parmGroup && a.tool == this.tools[i].name ) { qt++ }
             })
             this.tools[i].quantity = qt
-            console.log("Contou artigos de " + this.tools[i].title + " = " + qt)
         }
     }    
 

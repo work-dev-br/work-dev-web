@@ -6,14 +6,12 @@ import { Component, OnInit, Input } from '@angular/core';
     styleUrls: ['../article.shared.css']
 })
 export class Articles001Component implements OnInit {
-    public numId: number
 
     constructor() { }
 
-    @Input() id: string
+    @Input() numId: number
 
     ngOnInit(): void {
-        this.numId = parseInt(this.id)
     }
 
     selectedArticle(id: number): boolean {

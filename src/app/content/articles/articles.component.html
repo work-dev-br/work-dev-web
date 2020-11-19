@@ -13,7 +13,12 @@
 
     <!-- Lista os Artigos -->    
     <div class="articles-item">
-        <app-list-articles [showNew]="showNew" group="{{parmGroup}}" tool="{{parmTool}}"></app-list-articles>
+        <app-list-articles 
+            [showType]="showType" 
+            [showNew]="showNew" 
+            group="{{parmGroup}}" 
+            tool="{{parmTool}}">
+        </app-list-articles>
     </div>
 </div>
 

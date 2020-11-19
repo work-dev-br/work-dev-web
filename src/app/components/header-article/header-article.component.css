@@ -1,8 +1,143 @@
 
+/*-- Estilo dos Botoes do Tipo de Artigo --*/
+
 .header-article-container {
     background-color: #f5f5f5;
-
-    border-bottom-style: solid;
-    border-bottom-color: #e6e8e6;
-    border-bottom-width: 3px;
 }
+
+.header-article-type {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 14px;
+}
+
+.header-article-box-group {
+    margin: 8px
+}
+
+.header-article-box-tool {
+    margin: 8px;
+} 
+
+/*-- Estilo do Conteudo do Cabeçalho do Artigo --*/
+
+.header-article-content {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 22px;
+}
+
+.space-10 {
+    width: 10px;
+}
+
+/*-- TOP: Mostra a ferramenta (se necessário) --*/
+
+.header-article-top {
+    background-color: #f5f5f5;
+    padding-right: 6px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-article-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-article-type {
+    display: flex;
+    flex-direction: row;
+}
+
+.header-article-type-box {
+    padding: 2px;
+    padding-left: 12px;
+    padding-right: 12px;
+    background-color: #e8f1f2;
+    font-family: 'Goldman', cursive;
+    font-size: calc(10px + 0.4vw);
+    color: #118ab2;
+    /*-- Border --*/
+    border-top: solid;
+    border-right: solid;
+    border-left: solid;
+    border-width: 1px;
+    border-radius: 4px 4px 0px 0px;
+    border-color: #D8E7E9;
+}
+
+/*-- BOTTOM: Parte de baixo - Combo do Artigo --*/
+
+.header-article-bottom {
+    border-radius: 6px;
+    border: solid;
+    border-width: 1px;
+    border-color: #D8E7E9;
+}
+
+.header-article-main {
+    display: flex;
+    flex-direction: row;
+}
+
+.header-article-footer {
+    padding-top: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 12px;
+}
+
+/*-- Styles especificos --*/
+
+.header-article-icon {
+    padding: 6px;
+}
+
+.header-article-box {
+    padding: 6px;
+    flex: 1;
+}    
+
+.header-article-title {
+    font-family: 'Oswald', sans-serif;
+    padding-bottom: 5px;
+    font-family: 'Goldman', cursive;
+    font-size: calc(16px + 0.6vw);
+    color: #e63946;
+}    
+
+.header-article-date {
+    background-color: #edf2f4;
+    width: fit-content;
+    padding: 2px;
+    padding-left: 6px;
+    padding-right: 6px;
+    border-radius: 6px;
+    font-family: 'Roboto', sans-serif;
+    font-size: calc(10px + 0.2vw);
+    font-weight: bold;
+    color: #3d405b;
+}    
+
+.header-article-divider {
+    background-color: #ebebeb;
+    height: 1px;
+}
+
+.header-article-description {
+    font-family: 'Merriweather', serif;
+    font-style: italic;
+    font-size:  calc(12px + 0.4vw);
+    line-height: 1.6;
+    color: #333333
+}
+

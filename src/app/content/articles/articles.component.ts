@@ -18,6 +18,7 @@ import { ToolsService } from '../../services/tools.service'
 })
 export class ArticlesComponent implements OnInit {
     public expands: boolean = false
+    public showType: boolean = false
     public showNew: boolean = false
     public parmGroup: string
     public group: Group

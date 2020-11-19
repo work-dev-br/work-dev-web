@@ -15,9 +15,9 @@ export class ArticlesService {
     /*-- Retorna um Artigo pela group, tool, id --*/
     public getArticle(group: string, tool: string, id: number): Article {
         let selArticle: Article = undefined
-
-        selArticle = this.articles[0]
-
+        this.articles.map((a) => {
+            if ( a.group == group && a.tool == tool && a.id == id ) { selArticle = a }
+        })
         return selArticle
     }
 
@@ -29,18 +29,18 @@ export class ArticlesService {
     /*-- Retorna os Artigos de um group e tool --*/
     public getArticles(group: string, tool: string): Article[] {
         let selArticles: Article[] = []
-
-        selArticles = this.articles
-
+        this.articles.map((a) => {
+            if ( a.group == group && a.tool == tool ) { selArticles.push(a) }
+        })
         return selArticles
     }
         
     /*-- Retorna os Artigos New --*/
     public getArticlesNew(): Article[] {
         let selArticles: Article[] = []
-
-        selArticles = this.articles
-
+        this.articles.map((a) => {
+            if ( a.isNew ) { selArticles.push(a) }
+        })
         return selArticles
     }
         
@@ -71,7 +71,7 @@ export class ArticlesService {
     private setArticles001(): void {
 
         /*-- Artigo 1 - Ferramentas - Angular --*/
-        this.setArticle(1, "tools", "angular", 
+        this.setArticle(1, "courses", "angular", 
             "O que é o framework Angular", 
             "Saiba o que é o o que faz esse framework que tem tornado uns dos mais utilizados em todo o mundo.", 
             new Date(2020, 11, 16), 1, true, )
@@ -83,10 +83,10 @@ export class ArticlesService {
             new Date(2020, 11, 16), 1, true, )
 
         /*-- Artigo 3 - Ferramentas - Angular --*/
-        this.setArticle(3, "tools", "angular", 
+        this.setArticle(3, "courses", "angular", 
             "Como instalar o Angular no Windows", 
             "Instalando o framework Angular no Windows.", 
-            new Date(2020, 11, 17), 2, false, )
+            new Date(2020, 11, 17), 3, false, )
 
         /*-- Artigo 4 - Ideias - Angular --*/
         this.setArticle(4, "tips", "javascript", 
@@ -96,7 +96,7 @@ export class ArticlesService {
 
         /*-- Artigo 5 - Ideias - CSS --*/
         this.setArticle(5, "tips", "css", 
-            "Como instalar o Angular no Windows", 
+            "Dicas de CSS - Artigo 5 nivel 2 false ", 
             "Instalando o framework Angular no Windows.", 
             new Date(2020, 11, 17), 2, false, )
 

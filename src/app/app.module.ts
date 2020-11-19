@@ -21,6 +21,8 @@ import { HeaderArticleComponent } from './components/header-article/header-artic
 import { ListArticlesComponent } from './content/list-articles/list-articles.component';
 import { ArticleNotFoundComponent } from './shared/article-not-found/article-not-found.component';
 import { ShowIconComponent } from './shared/show-icon/show-icon.component';
+import { ShowLevelComponent } from './shared/show-level/show-level.component';
+import { ShowNewComponent } from './shared/show-new/show-new.component';
 
 @NgModule({
   declarations: [
@@ -42,7 +44,9 @@ import { ShowIconComponent } from './shared/show-icon/show-icon.component';
     HeaderArticleComponent,
     ListArticlesComponent,
     ArticleNotFoundComponent,
-    ShowIconComponent
+    ShowIconComponent,
+    ShowLevelComponent,
+    ShowNewComponent
   ],
   imports: [
     BrowserModule,

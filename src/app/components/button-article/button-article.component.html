@@ -1,14 +1,31 @@
 <div class="button-article-container">
+
+    <!-- TOP do Button do Artigo -->
     <div class="button-article-top">
-        <div class="button-article-group">
-            {{ article.group }}       
+
+        <!-- Infos do Artigo - Level e New -->
+        <div class="button-article-info">
+            <app-show-level [level]="level"></app-show-level>
+            <div class="space-10"></div>
+            <app-show-new [new]="new"></app-show-new>
         </div>
-        <div [ngStyle]="{'width':'20px'}"></div>
-        <div class="button-article-group">
-            {{ article.tool }}       
+
+        <!-- Tipo de Artigo - Type e Tool -->
+        <div class="button-article-type" *ngIf="showType">
+            <div class="button-article-type-box">
+                {{ group.title }}       
+            </div>
+            <div class="space-10"></div>
+            <div class="button-article-type-box">
+                {{ tool.title }}       
+            </div>
         </div>
     </div>
+
+    <!-- BOTTOM do Button do Artigo -->
     <div class="button-article-bottom">
+
+        <!-- Icone, Titulo e Data do Artigo -->
         <div class="button-article-header">
             <div class="button-article-icon">
                 <app-show-icon icon="{{article.tool}}"></app-show-icon>
@@ -17,23 +34,16 @@
                 <div class="button-article-title">{{ article.title }}</div>
                 <div class="button-article-date">{{ article.date  | date: 'dd/MM/yyyy' }}</div>
             </div>
-            <div class="button-article-info">
-                <div>***</div>
-                <div>new</div>
-            </div>
         </div>
         <div class="button-article-divider"></div>
+
+        <!-- Descrição do Artigo -->
         <div class="button-article-footer">
             <div class="button-article-description">
                 {{ article.description }}
             </div>
         </div>
-    </div>
-</div>
 
-<!-- 
-    Id: {{ article.id }} - 
-    Titulo: {{ article.title }} <br>
-    Descrição: {{ article.description }} <br>  
-    
--->
+    </div>
+
+</div>
