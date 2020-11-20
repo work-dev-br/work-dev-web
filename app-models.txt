@@ -1,5 +1,0 @@
-
-Inclusão de Icone:
------------------
-<img [src]="iconJavascript" width="32" height="32" style="border-radius: 50%;"/>
-iconJavascript: String = 'assets/javascript-circle-48.png'  

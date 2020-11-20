@@ -23,6 +23,7 @@ import { ArticleNotFoundComponent } from './shared/article-not-found/article-not
 import { ShowIconComponent } from './shared/show-icon/show-icon.component';
 import { ShowLevelComponent } from './shared/show-level/show-level.component';
 import { ShowNewComponent } from './shared/show-new/show-new.component';
+import { HelpComponent } from './page/help/help.component';
 
 @NgModule({
   declarations: [
@@ -46,7 +47,8 @@ import { ShowNewComponent } from './shared/show-new/show-new.component';
     ArticleNotFoundComponent,
     ShowIconComponent,
     ShowLevelComponent,
-    ShowNewComponent
+    ShowNewComponent,
+    HelpComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,153 @@
+
+.about-container {
+    margin-top: 6px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    min-height: 60vh;
+}
+
+p {
+    margin: 0;
+    padding-bottom: 20px;
+    line-height: 1.6;
+    font-family: 'Merriweather', serif;
+    color: #222222;
+    font-size: calc(12px + 0.9vw);
+}
+
+.about-view-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8px;
+    font-family: 'Goldman', cursive;
+    font-size: calc(30px + 2vw);
+    color: #457b9d;
+}
+
+.about-title-section {
+    margin-top: 36px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Goldman', cursive;
+    font-size: calc(18px + 1.4vw);
+    color: #cd1624;
+}
+
+.about-spacer-26 {
+    width: 26px;
+    height: 26px;
+}
+
+/*--------------------------------------------------------
+                      Style: TITULO
+--------------------------------------------------------*/
+
+.about-title-box {
+    margin-top: 12px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-title-name {
+    font-family: 'Goldman', cursive;
+    font-size: calc(28px + 2vw);
+}
+
+.about-title-color-br {
+    color: #86bbd8;
+}
+
+.about-title-color-work {
+    color: #45739d;
+}
+
+.about-title-description {
+    font-family: 'Roboto', sans-serif;
+    font-size: calc(16px + 1.2vw);
+    font-style: italic;
+    color: slategrey;
+}
+
+/*--------------------------------------------------------
+            Style: HISTORIA E OBSERVAÇÃO
+--------------------------------------------------------*/
+
+.about-history {
+    margin-top: 26px;
+}
+
+.about-observation {
+    line-height: 1.6;
+    font-family: 'Merriweather', serif;
+    font-style: italic;
+    font-size: calc(11px + 0.8vw);
+    color: #222222;
+}
+
+/*--------------------------------------------------------
+               Style: FERRAMENTO DO SITE
+--------------------------------------------------------*/
+
+.about-tool {
+    margin-top: 26px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-tool-name {
+    font-family: 'Goldman', cursive;
+    font-size: calc(22px + 1.8vw);
+}
+
+.about-tool-version {
+    font-family: 'Roboto', sans-serif;
+    font-size: calc(14px + 1vw);
+    font-style: italic;
+}    
+
+.about-tool-icon {
+    margin-top: 10px;
+    border-radius: 20%;
+}
+
+/*--------------------------------------------------------
+                   Style: COLABORADORES
+--------------------------------------------------------*/
+
+.about-collaborators {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.about-icon-citation {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-citation-label {
+    margin-top: 8px;
+    margin-bottom: 2x;
+    font-family: 'Roboto', sans-serif;
+    font-size: calc(12px + 0.9vw);
+    font-style: italic;
+    color: #333333;
+}
+
+.about-citation-url {
+    text-decoration: none;
+    font-family: 'Roboto Mono', monospace;
+    font-size: calc(14px + 0.8vw);
+    color: brown;
+}

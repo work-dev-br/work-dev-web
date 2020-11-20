@@ -1,9 +1,6 @@
 
 git add .
-git commit -m "Commit 15-11-2020 20:56"
-
+git commit -m "Commit dd-mm-aaaa hh:mm"
 git push --set-upstream origin desenv
 
-
 git branch
-

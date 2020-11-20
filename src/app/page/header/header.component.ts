@@ -6,9 +6,6 @@ import { Component, OnInit } from '@angular/core';
     styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
-    public coll: string = "{{"
-    public title: string = "work.dev.br"
-    public colh: string = "}}"
 
     constructor() { }
 

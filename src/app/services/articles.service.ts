@@ -90,9 +90,9 @@ export class ArticlesService {
 
         /*-- Artigo 4 - Ideias - Angular --*/
         this.setArticle(4, "tips", "javascript", 
-            "Mostrando o tipo de dado de uma variavel com Javascript", 
-            "Dica simples para exibir um objeto Date no formato dd/mm/aaaa utilizado pipe do Angular.", 
-            new Date(2020, 11, 16), 1, true, )
+            "Titulo do artigo aqui", 
+            "Breve descrição do conteúdo do artigo.", 
+            new Date(2020, 11, 16), 2, true, )
 
         /*-- Artigo 5 - Ideias - CSS --*/
         this.setArticle(5, "tips", "css", 
