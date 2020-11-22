@@ -70,23 +70,34 @@ export class ArticlesService {
     /*-- Criação de Artigos 001 - Iniciando em id=1 --*/
     private setArticles001(): void {
 
-        /*-- Artigo 1 - Ferramentas - Angular --*/
-        this.setArticle(1, "courses", "angular", 
-            "O que é o framework Angular", 
-            "Saiba o que é o o que faz esse framework que tem tornado uns dos mais utilizados em todo o mundo.", 
-            new Date(2020, 11, 16), 1, true, )
+        /*------------------------------------------------------------------------
+                              <<<  INDICE DE ARTIGOS  >>>
+          Artigo 001 - Instalação do Node JS no Windows
 
-            /*-- Artigo 2 - Ideias - Angular --*/
-        this.setArticle(2, "tips", "angular", 
+        ------------------------------------------------------------------------*/
+
+        /*-- Artigo 1 - Ferramentas - Node JS --*/
+        this.setArticle(1, "courses", "nodejs", 
+            "Instalação do Node JS no Windows", 
+            "Passo a passo para o download e instalação da ferramenta Node JS no sistema operacional Windows.", 
+            new Date(2020, 11, 22), 1, true, )
+
+        /*-- Artigo 2 - Ferramentas - Angular --*/
+        this.setArticle(2, "courses", "angular", 
+            "Instalação do CLI do Angular", 
+            "Passo a passo para instalar o Angular CLI (command line interface), interface de comando de linha do framework Angular.", 
+            new Date(2020, 11, 22), 1, true, )
+
+
+
+        /*-- ARTIGOS ABAIXO PARA TESTES --*/
+        /* ============================== */
+
+        /*-- Artigo 3 - Ideias - Angular --*/
+        this.setArticle(3, "tips", "angular", 
             "Como exibir data no formato dd/mm/aaaa em Angular", 
             "Dica simples para exibir um objeto Date no formato dd/mm/aaaa utilizado pipe do Angular.", 
             new Date(2020, 11, 16), 1, true, )
-
-        /*-- Artigo 3 - Ferramentas - Angular --*/
-        this.setArticle(3, "courses", "angular", 
-            "Como instalar o Angular no Windows", 
-            "Instalando o framework Angular no Windows.", 
-            new Date(2020, 11, 17), 3, false, )
 
         /*-- Artigo 4 - Ideias - Angular --*/
         this.setArticle(4, "tips", "javascript", 

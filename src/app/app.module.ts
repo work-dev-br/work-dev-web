@@ -24,6 +24,7 @@ import { ShowIconComponent } from './shared/show-icon/show-icon.component';
 import { ShowLevelComponent } from './shared/show-level/show-level.component';
 import { ShowNewComponent } from './shared/show-new/show-new.component';
 import { HelpComponent } from './page/help/help.component';
+import { CopyCodeComponent } from './article/copy-code/copy-code.component';
 
 @NgModule({
   declarations: [
@@ -48,7 +49,8 @@ import { HelpComponent } from './page/help/help.component';
     ShowIconComponent,
     ShowLevelComponent,
     ShowNewComponent,
-    HelpComponent
+    HelpComponent,
+    CopyCodeComponent
   ],
   imports: [
     BrowserModule,

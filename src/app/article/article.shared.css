@@ -15,4 +15,36 @@ p {
     margin: 0;
     padding-bottom: 20px;
     line-height: 1.6;
+    /*-- Font --*/
+    font-family: 'Merriweather', serif;
+    font-size: calc(12px + 0.8vw);
+    color: #222222;
 }
+
+a {
+    background-color: seashell;
+    padding-left: 6px;
+    padding-right: 6px;
+    border-radius: 5px;
+    text-decoration: none;
+    /*-- Font --*/
+    font-family: 'Roboto Mono', monospace;
+    font-size: calc(13px + 0.9vw);
+    color: #e63946;
+}
+
+i {
+    font-family: 'Roboto', sans-serif;
+    color: #6a4c93;
+    font-size: calc(13px + 0.9vw);
+}
+
+.article-title {
+    margin-top: 12px;
+    /*-- Font --*/
+    font-family: 'Merriweather', serif;
+    font-size: calc(14px + 1vw);
+    font-weight: bold;
+    color: #333333;
+}
+

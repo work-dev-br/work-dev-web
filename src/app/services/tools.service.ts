@@ -10,7 +10,8 @@ export class ToolsService {
 
     constructor() { 
         this.setTool("angular", "Angular")
-        this.setTool("javascript", "Javascript")
+        this.setTool("nodejs", "Node JS")
+        this.setTool("angular", "Angular")
         this.setTool("css", "CSS")
         this.setTool("internet", "Internet")
     }
