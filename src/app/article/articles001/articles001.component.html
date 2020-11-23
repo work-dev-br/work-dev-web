@@ -5,10 +5,8 @@
 ----------------------------------------------------------------------------------->
 <div class="article-container" *ngIf="selectedArticle(1)">
     <p class="article-title">Download do Node JS</p>
-    <p>Acesse o site <a href="https://nodejs.org/" target="_blank">nodejs.org</a> 
-        e na página inicial já haverá o link para o download.</p>
-    <p>Você pode também acessar o site <a href="https://nodejs.org/pt-br" target="_blank">nodejs.org/pt-br</a> 
-        que é apresentando em Portugues do Brasil.</p>
+    <p>Acesse o site <a href="https://nodejs.org/" target="_blank">nodejs.org</a> e na página inicial já haverá o link para o download.</p>
+    <p>Você pode também acessar o site <a href="https://nodejs.org/pt-br" target="_blank">nodejs.org/pt-br</a> que é apresentando em Portugues do Brasil.</p>
     <p>Prefira a versão LTS, que, embora não seja a última, é a versão estável.</p>
     <p>A versão atual disponível no site é a <i>14.15.1 LTS</i>.</p>
     <p>Clique no link e faça o download do instalador.</p>
@@ -18,22 +16,17 @@
     <p>Finalizada a instalação, clique em concluir</p>
     <p class="article-title">Validação da instalação do Node JS</p>
     <p>Abra um terminal de comandos, que pode ser o terminal do próprio Windows.</p>
-    <p>Se preferir o terminal do Windows, digite cmd no campo de pesquisa da barra de tarefas 
-        e seleciono o Prompt de Comando.</p>
+    <p>Se preferir o terminal do Windows, digite cmd no campo de pesquisa da barra de tarefas e seleciono o Prompt de Comando.</p>
     <p>Para validar a instalação do Node JS execute o comando:</p>
     <div class="a-expand-100">
         <app-copy-code>node --version</app-copy-code>
     </div>
     <p>Deverá ser exibida a versão do Node JS instalada.</p>
-
     <div class="article-youtube">
         <iframe src="https://www.youtube.com/embed/P6GcoLU0iCo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
-
-
     <p class="article-title">Sobre o NPM integrado ao Node JS</p>
-    <p>Na instalação do Node JS também é instalado o NPM, que lhe possibilitará acesso a uma biblioteca 
-        com uma infinidade de ferramentas que poderão ser integradas ao seu projeto, para os mais diversos usos.</p>
+    <p>Na instalação do Node JS também é instalado o NPM, que lhe possibilitará acesso a uma biblioteca com uma infinidade de ferramentas que poderão ser integradas ao seu projeto, para os mais diversos usos.</p>
     <p>Para validar a instalação do NPM execute o comando:</p>
     <div class="a-expand-100">
         <app-copy-code>npm --version</app-copy-code>
@@ -42,17 +35,35 @@
     <p>Muitos desenvolvedores instalam o Node JS somente com o intuito de utilizar o NPM.</p>
 </div>
 
-
-
-
-
-
+<!---------------------------------------------------------------------------------- 
+    Artigo 002 - Instalação do Angular CLI
+    Data: 22/11/2020  
+----------------------------------------------------------------------------------->
 <div class="article-container" *ngIf="selectedArticle(2)">
-    Texto do Artigo 2
-    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
-    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+    <p class="article-title">Sobre o Angular</p>
+    <p>O site oficial do Angular é <a href="https://angular.io/" target="_blank">angular.io</a>, onde você encontrará uma vasta documentação sobre o framework, inclusive esse primeiro passo, que é muito simples, de instalar o Angular CLI em seu microcomputador.</p>
+    <p>Essa sigla CLI quer dizer <i>command line interface</i> em inglês, ou <i>interface de linha de comando</i> em português, e é o CLI (pode pronunciar Client) é quem vai interpretar e executar os comandos do Angular.</p>
+    <p class="article-title">Instalação do CLI</p>
+    <p>É necessário que você tenha instalado o NPM para instalar o Angular CLI.</p>
+    <p>Caso você não tenha o NPM instalado veja esse artigo <a href="https://work-dev-br.github.io/work-dev-web/article/courses/nodejs/1" target="_blank">Artigo 001 - Instalação do Node JS no Windows</a> que irá lhe auxiliar.</p>
+    <p>Vamos então a instalação, abra um terminal de comandos, que pode ser o Prompt de Comando do Windows, e execute o comando abaixo:</p>
+    <div class="a-expand-100">
+        <app-copy-code>npm install -g @angular/cli</app-copy-code>
+    </div>
+    <p>A instalação pode demorar, porque serão baixados para o seu micro todos os componentes para o framework funcionar.</p>
+    <p class="article-title">Validação da Instalação do CLI</p>
+    <p>Terminada a instalação, você poderá verificar se a instalação ocorreu com sucesso, para isso digite o comando abaixo:.</p>
+    <div class="a-expand-100">
+        <app-copy-code>ng --version</app-copy-code>
+    </div>
+    <p>Se o CLI foi instalado corretamente, será exibida no terminal informações de versão do framework.</p>
+    <p>A abreviação <i>ng</i> é utilizado para executar os comandos do Angular CLI.</p>
 </div>
+
+
+
+
+
 
 <div class="article-container" *ngIf="selectedArticle(3)">
     Texto do Artigo 3

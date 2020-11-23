@@ -35,6 +35,7 @@ a {
 
 i {
     font-family: 'Roboto', sans-serif;
+    font-weight: bold;
     color: #6a4c93;
     font-size: calc(13px + 0.9vw);
 }

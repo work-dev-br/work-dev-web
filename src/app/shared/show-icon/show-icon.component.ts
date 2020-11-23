@@ -27,6 +27,9 @@ export class ShowIconComponent implements OnInit {
             case "angular":
                 this.urlIcon = "assets/tools/angular-48px.png"
                 break;
+            case "nodejs":
+                this.urlIcon = "assets/tools/nodejs-48px.png"
+                break;
             case "javascript":
                 this.urlIcon = "assets/tools/javascript-48px.png"
                 break;

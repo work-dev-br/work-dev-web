@@ -84,7 +84,7 @@ export class ArticlesService {
 
         /*-- Artigo 2 - Ferramentas - Angular --*/
         this.setArticle(2, "courses", "angular", 
-            "Instalação do CLI do Angular", 
+            "Instalação do Angular CLI", 
             "Passo a passo para instalar o Angular CLI (command line interface), interface de comando de linha do framework Angular.", 
             new Date(2020, 11, 22), 1, true, )
 
@@ -93,31 +93,27 @@ export class ArticlesService {
         /*-- ARTIGOS ABAIXO PARA TESTES --*/
         /* ============================== */
 
-        /*-- Artigo 3 - Ideias - Angular --*/
+        /*
         this.setArticle(3, "tips", "angular", 
             "Como exibir data no formato dd/mm/aaaa em Angular", 
             "Dica simples para exibir um objeto Date no formato dd/mm/aaaa utilizado pipe do Angular.", 
             new Date(2020, 11, 16), 1, true, )
 
-        /*-- Artigo 4 - Ideias - Angular --*/
         this.setArticle(4, "tips", "javascript", 
             "Titulo do artigo aqui", 
             "Breve descrição do conteúdo do artigo.", 
             new Date(2020, 11, 16), 2, true, )
 
-        /*-- Artigo 5 - Ideias - CSS --*/
         this.setArticle(5, "tips", "css", 
             "Dicas de CSS - Artigo 5 nivel 2 false ", 
             "Instalando o framework Angular no Windows.", 
             new Date(2020, 11, 17), 2, false, )
 
-        /*-- Artigo 6 - Variedades - Internet --*/
         this.setArticle(6, "varieties", "internet", 
             "Como instalar o Angular no Windows", 
             "Instalando o framework Angular no Windows.", 
             new Date(2020, 11, 17), 2, false, )
-
-
+        */
 
     }
 }

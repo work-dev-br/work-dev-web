@@ -1,0 +1,15 @@
+
+.page-not-found-container {
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-not-found-text {
+    font-family: 'Goldman', cursive;
+    font-size: calc(14px + 1vw);
+    color: #e63946;
+}
